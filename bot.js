@@ -22,6 +22,16 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+
+    if (message.content === 'kutas') {
+
+       message.reply('jesteś');
+
+       }
+
+});
+
  
 
 // THIS  MUST  BE  THIS  WAY
