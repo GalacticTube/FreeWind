@@ -1,25 +1,32 @@
 {
-
   "name": "FreeWind",
-
-  "description": "FreeWind aka DCBot",
-
-  "version": "0.0.1",
-
+  "version": "0.1.0",
+  "description": "FreeWind aka DCmusicbot",
   "main": "bot.js",
-
   "scripts": {
-
     "start": "node bot.js"
-
   },
-
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "author": "iCrawl",
+  "license": "MIT",
   "dependencies": {
-
-    "discord.js": "11.1.0",
-
-    "request": "2.81.0"
-
+    "discord.js": "^11.1.0",
+    "opusscript": "0.0.3",
+    "simple-youtube-api": "^3.0.0",
+    "ytdl-core": "^0.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-aqua": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "aqua",
+    "rules": {
+      "no-console": 0
+    }
   }
-
 }
